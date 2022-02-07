@@ -1,0 +1,11 @@
+CRITICAL - 2022-02-01 10:18:24 --> Undefined variable: barang
+#0 C:\xampp\htdocs\sinjam\app\Views\nasabah.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\sinjam\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sinjam\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sinjam\system\Common.php(1097): CodeIgniter\View\View->render('nasabah', Array, true)
+#4 C:\xampp\htdocs\sinjam\app\Controllers\Nasabah.php(9): view('nasabah')
+#5 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(824): App\Controllers\Nasabah->index()
+#6 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nasabah))
+#7 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sinjam\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

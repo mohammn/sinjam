@@ -1,0 +1,27 @@
+CRITICAL - 2022-02-05 11:04:01 --> There is no data to update.
+#0 C:\xampp\htdocs\sinjam\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sinjam\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\sinjam\app\Controllers\Pinjaman.php(71): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(824): App\Controllers\Pinjaman->tambahCicilan()
+#4 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#5 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sinjam\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-05 11:07:39 --> There is no data to update.
+#0 C:\xampp\htdocs\sinjam\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sinjam\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\sinjam\app\Controllers\Pinjaman.php(72): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(824): App\Controllers\Pinjaman->tambahCicilan()
+#4 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#5 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sinjam\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-05 11:08:43 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\sinjam\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\sinjam\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sinjam\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\sinjam\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\sinjam\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\sinjam\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

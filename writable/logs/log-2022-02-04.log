@@ -1,0 +1,35 @@
+CRITICAL - 2022-02-04 09:48:52 --> Undefined property: App\Controllers\Pinjaman::$transaksiModel
+#0 C:\xampp\htdocs\sinjam\app\Controllers\Pinjaman.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(824): App\Controllers\Pinjaman->getData()
+#2 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#3 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sinjam\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 09:48:53 --> Undefined property: App\Controllers\Pinjaman::$transaksiModel
+#0 C:\xampp\htdocs\sinjam\app\Controllers\Pinjaman.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(824): App\Controllers\Pinjaman->getData()
+#2 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#3 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sinjam\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 09:48:54 --> Undefined property: App\Controllers\Pinjaman::$transaksiModel
+#0 C:\xampp\htdocs\sinjam\app\Controllers\Pinjaman.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(824): App\Controllers\Pinjaman->getData()
+#2 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#3 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sinjam\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 09:50:05 --> Undefined property: App\Controllers\Pinjaman::$transaksiModel
+#0 C:\xampp\htdocs\sinjam\app\Controllers\Pinjaman.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(824): App\Controllers\Pinjaman->getData()
+#2 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#3 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sinjam\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 09:50:36 --> Undefined property: App\Controllers\Pinjaman::$transaksiModel
+#0 C:\xampp\htdocs\sinjam\app\Controllers\Pinjaman.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(824): App\Controllers\Pinjaman->getData()
+#2 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#3 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sinjam\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

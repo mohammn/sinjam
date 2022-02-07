@@ -1,0 +1,2 @@
+Sinjam Merupakan sebuah aplikasi yang dibuat menggunakan Codeginiter 4. aplikasi ini dapat digunakan untuk mendukung kegiatan simpan pinjam
+aplikasi ini dilengkapi dengan beberapa fitur sederhana. seperti : Transaksi pengambilan atau penyetoran uang, pinjaman dan cicilan, data nasabah, dan data user aplikasi.
