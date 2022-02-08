@@ -37,7 +37,7 @@
                         <label for="inputEmail3" class="col-sm-2 col-form-label">NIK</label>
                         <div class="col-sm-10">
                             <input type="hidden" class="form-control" id="nikLama" name="nikLama" placeholder="">
-                            <input type="text" class="form-control" id="nik" name="nik" placeholder="" disabled>
+                            <input type="text" class="form-control" id="nik" name="nik" placeholder="">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -169,6 +169,7 @@
 
     function modalForm(jenis, nik = "", nama = "", telp = "", alamat = "", status = 0) {
         if (jenis) {
+            $("#nik").prop("disabled", true)
             $("#judulForm").html("Edit Nasabah")
             $("#nikLama").val(nik)
             $("#nik").val(nik)
@@ -177,6 +178,7 @@
             $("#alamat").val(alamat)
             $("#status").val(status)
         } else {
+            $("#nik").prop("disabled", false)
             $("#judulForm").html("Tambah Nasabah")
             $("#nikLama").val(false)
             $("#nik").val("")
