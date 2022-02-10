@@ -45,13 +45,13 @@ class Nasabah extends BaseController
             "status" => $this->request->getPost("status")
         ];
 
-        if ($this->request->getPost("nikLama") == false) {
+        if ($this->request->getPost("nikLama") == "false") {
             $this->nasabahModel->insert($data);
         } else {
             unset($data["nik"]);
             $this->nasabahModel->update($this->request->getPost("nikLama"), $data);
         }
-        echo json_encode("");
+        echo json_encode($this->request->getPost("nikLama"));
     }
 
     public function upload()

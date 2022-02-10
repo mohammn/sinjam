@@ -1,0 +1,15 @@
+ERROR - 2022-02-09 09:24:37 --> Duplicate entry '3526870305980001' for key 'PRIMARY'
+CRITICAL - 2022-02-09 09:24:37 --> Duplicate entry '3526870305980001' for key 'PRIMARY'
+#0 C:\xampp\htdocs\sinjam\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `na...', 0)
+#1 C:\xampp\htdocs\sinjam\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `na...')
+#2 C:\xampp\htdocs\sinjam\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `na...')
+#3 C:\xampp\htdocs\sinjam\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `na...', Array, false)
+#4 C:\xampp\htdocs\sinjam\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sinjam\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sinjam\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\sinjam\app\Controllers\Nasabah.php(49): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(824): App\Controllers\Nasabah->tambah()
+#9 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nasabah))
+#10 C:\xampp\htdocs\sinjam\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sinjam\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

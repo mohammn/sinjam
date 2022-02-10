@@ -125,7 +125,7 @@
                         baris += "</td><td><button href='#' class='btn btn-info btn-sm' onClick='modalForm(1, \"" + data[i].nik + "\", \"" + data[i].nama + "\", \"" + data[i].telp + "\", \"" + data[i].alamat + "\", " + data[i].status + ")'><i class='fa fa-edit'></i><i class='mdi mdi-food'></i></button><button href='#' class='btn btn-info btn-sm ml-2' onClick='tryUpload(\"" + data[i].nik + "\", \"" + data[i].nama + "\" ,\"" + data[i].foto + "\")'><i class='fa fa-image'></button></td></tr>"
                     }
                 } else {
-                    baris = "<td colspan='4' class='text-center'>Antrian Masih Kosong :)</td>"
+                    baris = "<td colspan='4' class='text-center'>Data Masih Kosong :)</td>"
                 }
                 baris += "</tbody></table>"
                 $("#tempatTabel").html(baris)
@@ -154,6 +154,7 @@
                 url: '<?= base_url() ?>/nasabah/tambah',
                 dataType: 'json',
                 success: function(data) {
+                    console.log(data)
                     $("#nik").val("");
                     $("#nama").val("");
                     $("#telp").val("");
